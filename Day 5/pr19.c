@@ -13,15 +13,15 @@ int main()
     }
     else if(a>=500 && a<=2000)
     {
-        printf("Commission : Rs. %.3f",b);
+        printf("Commission : Rs. %.2f",b);
     }
     else if(a>=2001 && a<=5000)
     {
-        printf("Commission : Rs. %.3f",c);
+        printf("Commission : Rs. %.2f",c);
     }
     else if(a>5000)
     {
-        printf("Commission : Rs. %.3f",d);
+        printf("Commission : Rs. %.2f",d);
     }
     return 0;
     
